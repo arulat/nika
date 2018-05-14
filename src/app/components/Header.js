@@ -17,6 +17,9 @@ class Header extends Component {
                         <li>
                             <Link to={"/table-example"}>Table example</Link>
                         </li>
+                        <li>
+                            <Link to={"/regex-test"}>Regex test</Link>
+                        </li>
                     </ul>
                 </nav>
             </header>
