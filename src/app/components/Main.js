@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import {Switch, Route} from 'react-router-dom'
 import Game from './tic-tac-toe-game';
 import TableExample from './forms-usage/TableExample'
+import HtmlParserFormExample from './forms-usage/HtmlParserFormExample'
 import TestRegex from './test-new-features/TestRegex'
+import TestDrawHtmlToMSOfficeEditorForm from './DrawHtmlToMSOfficeEditor/TestDrawHtmlToMSOfficeEditor'
 
 class Main extends Component {
 
@@ -13,6 +15,8 @@ class Main extends Component {
                     <Route path={"/tic-tac-toe"} component={Game}/>
                     <Route path={"/table-example"} component={TableExample}/>
                     <Route path={"/regex-test"} component={TestRegex}/>
+                    <Route path={"/html-parser-test"} component={HtmlParserFormExample}/>
+                    <Route path={"/draw-html-to-ms-office-test"} component={TestDrawHtmlToMSOfficeEditorForm}/>1
                 </Switch>
             </main>
         )

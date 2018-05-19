@@ -1,1 +1,0 @@
-{"version":3,"sources":["src/app/components/Header.js"],"names":[],"mappings":"AAAA,SAAQ,SAAR,QAAwB,OAAxB;;AAEA,MAAM,MAAN,SAAqB,SAArB,CAA+B;;AAE3B,aAAS;AACL;AACH;AAJ0B","file":"Header-compiled.js","sourcesContent":["import {Component} from 'react';\r\n\r\nclass Header extends Component {\r\n\r\n    render() {\r\n        return \r\n    }\r\n}\r\n"]}

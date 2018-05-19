@@ -42,10 +42,10 @@ class TableExample extends Component {
 
     showTableInModalBox = () => {
         this.setState({modalShow : true})
-    }
+    };
     closeModal = () => {
         this.setState({modalShow : false})
-    }
+    };
     render() {
         const   header = <div>Таблица</div>,
             footer = <div><button onClick={this.closeModal}>Close</button></div>

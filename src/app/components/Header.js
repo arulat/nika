@@ -20,6 +20,12 @@ class Header extends Component {
                         <li>
                             <Link to={"/regex-test"}>Regex test</Link>
                         </li>
+                        <li>
+                            <Link to={"/html-parser-test"}>Html parser test</Link>
+                        </li>
+                        <li>
+                            <Link to={"/draw-html-to-ms-office-test"}>Draw html to MS office test</Link>
+                        </li>
                     </ul>
                 </nav>
             </header>

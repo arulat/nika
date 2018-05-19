@@ -4,9 +4,6 @@ import {BootstrapTable, TableHeaderColumn} from 'react-bootstrap-table';
 
 class CustomBootstrapTable extends Component {
 
-    constructor(props){
-        super(props);
-    }
     trStyle = (row, rowIndex) => {
         return { backgroundColor: '#FFFAFA' };
     }
