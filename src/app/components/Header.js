@@ -26,6 +26,9 @@ class Header extends Component {
                         <li>
                             <Link to={"/draw-html-to-ms-office-test"}>Draw html to MS office test</Link>
                         </li>
+                        <li>
+                            <Link to={"/auto-focus-test"}>Autofocus example</Link>
+                        </li>
                     </ul>
                 </nav>
             </header>

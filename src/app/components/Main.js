@@ -5,6 +5,7 @@ import TableExample from './forms-usage/TableExample'
 import HtmlParserFormExample from './forms-usage/HtmlParserFormExample'
 import TestRegex from './test-new-features/TestRegex'
 import TestDrawHtmlToMSOfficeEditorForm from './DrawHtmlToMSOfficeEditor/TestDrawHtmlToMSOfficeEditor'
+import AutoFocusInputExample from './forms-usage/AutoFocusInputExample';
 
 class Main extends Component {
 
@@ -16,7 +17,8 @@ class Main extends Component {
                     <Route path={"/table-example"} component={TableExample}/>
                     <Route path={"/regex-test"} component={TestRegex}/>
                     <Route path={"/html-parser-test"} component={HtmlParserFormExample}/>
-                    <Route path={"/draw-html-to-ms-office-test"} component={TestDrawHtmlToMSOfficeEditorForm}/>1
+                    <Route path={"/draw-html-to-ms-office-test"} component={TestDrawHtmlToMSOfficeEditorForm}/>
+                    <Route path={"/auto-focus-test"} component={AutoFocusInputExample}/>
                 </Switch>
             </main>
         )
