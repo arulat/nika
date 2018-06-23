@@ -6,6 +6,8 @@ import HtmlParserFormExample from './forms-usage/HtmlParserFormExample'
 import TestRegex from './test-new-features/TestRegex'
 import TestDrawHtmlToMSOfficeEditorForm from './DrawHtmlToMSOfficeEditor/TestDrawHtmlToMSOfficeEditor'
 import AutoFocusInputExample from './forms-usage/AutoFocusInputExample';
+import MouseTracker from './render-prop-stuff/MouseTracker';
+import MouseTrackerWithHOC from './render-prop-stuff/MouseTrackerWithHOC';
 
 class Main extends Component {
 
@@ -19,6 +21,8 @@ class Main extends Component {
                     <Route path={"/html-parser-test"} component={HtmlParserFormExample}/>
                     <Route path={"/draw-html-to-ms-office-test"} component={TestDrawHtmlToMSOfficeEditorForm}/>
                     <Route path={"/auto-focus-test"} component={AutoFocusInputExample}/>
+                    <Route path={"/go-musik"} component={MouseTracker}/>
+                    <Route path={"/go-musik-hoc"} component={MouseTrackerWithHOC}/>
                 </Switch>
             </main>
         )

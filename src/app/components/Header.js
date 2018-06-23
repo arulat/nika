@@ -29,6 +29,12 @@ class Header extends Component {
                         <li>
                             <Link to={"/auto-focus-test"}>Autofocus example</Link>
                         </li>
+                        <li>
+                            <Link to={"/go-musik"}>Go, Musik, go!</Link>
+                        </li>
+                        <li>
+                            <Link to={"/go-musik-hoc"}>Go, Musik, go! HOC</Link>
+                        </li>
                     </ul>
                 </nav>
             </header>
