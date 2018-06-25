@@ -35,6 +35,9 @@ class Header extends Component {
                         <li>
                             <Link to={"/go-musik-hoc"}>Go, Musik, go! HOC</Link>
                         </li>
+                        <li>
+                            <Link to={"/simple-context"}>Simple context</Link>
+                        </li>
                     </ul>
                 </nav>
             </header>

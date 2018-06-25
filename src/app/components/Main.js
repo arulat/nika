@@ -8,6 +8,7 @@ import TestDrawHtmlToMSOfficeEditorForm from './DrawHtmlToMSOfficeEditor/TestDra
 import AutoFocusInputExample from './forms-usage/AutoFocusInputExample';
 import MouseTracker from './render-prop-stuff/MouseTracker';
 import MouseTrackerWithHOC from './render-prop-stuff/MouseTrackerWithHOC';
+import SimpleContext from './context/SimpleContext';
 
 class Main extends Component {
 
@@ -23,6 +24,7 @@ class Main extends Component {
                     <Route path={"/auto-focus-test"} component={AutoFocusInputExample}/>
                     <Route path={"/go-musik"} component={MouseTracker}/>
                     <Route path={"/go-musik-hoc"} component={MouseTrackerWithHOC}/>
+                    <Route path={"/simple-context"} component={SimpleContext}/>
                 </Switch>
             </main>
         )
