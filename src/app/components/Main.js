@@ -9,6 +9,7 @@ import AutoFocusInputExample from './forms-usage/AutoFocusInputExample';
 import MouseTracker from './render-prop-stuff/MouseTracker';
 import MouseTrackerWithHOC from './render-prop-stuff/MouseTrackerWithHOC';
 import SimpleContext from './context/SimpleContext';
+import ParentModalPortal from './portal/ParentModalPortal';
 
 class Main extends Component {
 
@@ -25,6 +26,7 @@ class Main extends Component {
                     <Route path={"/go-musik"} component={MouseTracker}/>
                     <Route path={"/go-musik-hoc"} component={MouseTrackerWithHOC}/>
                     <Route path={"/simple-context"} component={SimpleContext}/>
+                    <Route path={"/simple-portal"} component={ParentModalPortal}/>
                 </Switch>
             </main>
         )

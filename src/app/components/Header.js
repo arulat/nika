@@ -38,6 +38,9 @@ class Header extends Component {
                         <li>
                             <Link to={"/simple-context"}>Simple context</Link>
                         </li>
+                        <li>
+                            <Link to={"/simple-portal"}>Simple portal example</Link>
+                        </li>
                     </ul>
                 </nav>
             </header>
